@@ -1,0 +1,70 @@
+name: pathaks_restaurant
+description: "Pathak's Restaurant - Royal Rajasthani Dining Experience"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ========================================
+  # 🔥 FIREBASE - SOLID WORKING SET
+  # ✅ These versions are PROVEN to work together
+  # ========================================
+  firebase_core: 2.13.1
+  firebase_core_web: 2.5.0
+  
+  firebase_auth: 4.6.2
+  firebase_auth_web: 5.5.2
+  
+  cloud_firestore: 4.8.0
+  cloud_firestore_web: 3.6.0
+  
+  firebase_storage: 11.2.2
+  firebase_storage_web: 3.6.2
+
+  # ========================================
+  # 📱 STATE MANAGEMENT
+  # ========================================
+  provider: ^6.1.1
+
+  # ========================================
+  # 🎨 UI & ANIMATIONS
+  # ========================================
+  cupertino_icons: ^1.0.8
+  confetti: ^0.7.0
+
+  # ========================================
+  # 🛠️ UTILITIES
+  # ========================================
+  intl: ^0.19.0
+  timeago: ^3.6.1
+
+  # ========================================
+  # 📷 QR CODE FEATURES
+  # ========================================
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^3.5.5
+
+  # ========================================
+  # 🌐 WEB & SHARING
+  # ========================================
+  url_launcher: ^6.2.2
+  share_plus: ^7.2.1
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/Pathaks.jpg
+    - assets/images/
